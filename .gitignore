@@ -1,3 +1,11 @@
+#git ignore file for CT5036 Assessment Repo Ewan
+
+# Ignore VS2019 generated folder
+**/.vs/
+
+#ignore user preferences VS file
+*.vcxproj.user
+
 # Prerequisites
 *.d
 
@@ -6,6 +14,7 @@
 *.lo
 *.o
 *.obj
+*.pdb
 
 # Precompiled Headers
 *.gch
@@ -30,3 +39,17 @@
 *.exe
 *.out
 *.app
+
+#ignore build and intermediate directories
+**/obj/
+**/bin/
+**/lib/
+**/build/
+**/intermediate/
+
+#allow specific files that may be covered by the above rule
+!/obj_models?*.obj
+!/deps/**/libs/**/*.lib
+!/deps/**/libs/**/*.pdb
+!/obj_loader/libs/**/*.lib
+!/obj_loader/libs/**/*.pdb

@@ -1,0 +1,10 @@
+﻿Utilities.obj : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '2' doesn't match value '0' in Application.obj
+Utilities.obj : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MDd_DynamicDebug' doesn't match value 'MD_DynamicRelease' in Application.obj
+Utilities.obj : warning LNK4075: ignoring '/EDITANDCONTINUE' due to '/OPT:ICF' specification
+LINK : warning LNK4098: defaultlib 'MSVCRTD' conflicts with use of other libs; use /NODEFAULTLIB:library
+Texture.obj : error LNK2001: unresolved external symbol stbi_load
+Texture.obj : error LNK2001: unresolved external symbol stbi_image_free
+Texture.obj : error LNK2001: unresolved external symbol stbi_set_flip_vertically_on_load
+Utilities.obj : error LNK2001: unresolved external symbol __imp__invalid_parameter
+Utilities.obj : error LNK2001: unresolved external symbol __imp__CrtDbgReport
+C:\Users\User\Documents\GitHubLV5\ct5036-assessment-rendering-framework-EwanSmith4001418\bin\ConsoleWindowEmpty_Ewan.exe : fatal error LNK1120: 5 unresolved externals

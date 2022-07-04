@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30503.244
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ConsoleWindowEmpty_Ewan", "ConsoleWindowEmpty_Ewan\ConsoleWindowEmpty_Ewan.vcxproj", "{3BC4D115-3594-4F6C-B0CC-F20D83402728}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "obj_loader", "obj_loader\obj_loader.vcxproj", "{BB5D1428-9D13-4C4E-AA69-3C8037374433}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3BC4D115-3594-4F6C-B0CC-F20D83402728}.Debug|x64.ActiveCfg = Debug|x64
+		{3BC4D115-3594-4F6C-B0CC-F20D83402728}.Debug|x64.Build.0 = Debug|x64
+		{3BC4D115-3594-4F6C-B0CC-F20D83402728}.Release|x64.ActiveCfg = Release|x64
+		{3BC4D115-3594-4F6C-B0CC-F20D83402728}.Release|x64.Build.0 = Release|x64
+		{BB5D1428-9D13-4C4E-AA69-3C8037374433}.Debug|x64.ActiveCfg = Debug|x64
+		{BB5D1428-9D13-4C4E-AA69-3C8037374433}.Debug|x64.Build.0 = Debug|x64
+		{BB5D1428-9D13-4C4E-AA69-3C8037374433}.Release|x64.ActiveCfg = Release|x64
+		{BB5D1428-9D13-4C4E-AA69-3C8037374433}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D39232C7-E673-42F1-A30B-2A66E40DCC85}
+	EndGlobalSection
+EndGlobal
